@@ -12,7 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.media3.common.util.UnstableApi
 import com.example.smartmedia.screen.VideoSummarizationScreen
 import com.example.smartmedia.ui.theme.SmartMediaTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     @OptIn(UnstableApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -8,6 +8,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.ai.ai
 import com.google.firebase.ai.type.GenerativeBackend
 import com.google.firebase.ai.type.content
+import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -20,6 +21,7 @@ import kotlinx.coroutines.launch
  * It manages the state of the summarization process and exposes the output text through a
  * [StateFlow].
  */
+@HiltViewModel
 class VideoSummarizationViewModel @Inject constructor() : ViewModel() {
 
     private val tag = "VideoSummaryVM"
