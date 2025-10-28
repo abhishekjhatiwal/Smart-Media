@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998362800941",
+    "project_id": "smart-media-40c3d",
+    "storage_bucket": "smart-media-40c3d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998362800941:android:9e7c2ef837230d1d2129a4",
+        "android_client_info": {
+          "package_name": "com.example.smartmedia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuX8VpYEuPnmKsGZaS5IPdAuePlPe29YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
